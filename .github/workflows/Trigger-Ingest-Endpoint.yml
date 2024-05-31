@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Make an HTTP POST request to ingest endpoint
         run: |
-          curl -X POST http://localhost:3000/ingest -H "Content-Type: application/json"
+          curl -X POST http://localhost:3000/ingest -H "Content-Type: application/json" -d '{}'
