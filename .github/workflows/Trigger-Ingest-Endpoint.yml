@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Make an HTTP POST request to ingest endpoint
         run: |
-          curl -X POST https://testing2-9vxf.onrender.com/ingest -H "Content-Type: application/json" -d '{}'
+          curl -X POST https://testing2-9vxf.onrender.com/health -H "Content-Type: application/json" -d '{}'
